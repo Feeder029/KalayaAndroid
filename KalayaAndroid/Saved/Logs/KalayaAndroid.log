@@ -7527,3 +7527,678 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2025.04.01-12.47.30:271][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2025.04.01-12.47.30:284][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
 [2025.04.01-12.47.30:355][897]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2025.04.01-12.49.59:885][  3]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.01-12.49.59:895][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.01-12.49.59:895][  3]PIE: New page: PIE session: Tutorial (2 Apr 2025, 4:49:59 am)
+[2025.04.01-12.49.59:895][  3]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2025.04.01-12.49.59:921][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025933s)
+[2025.04.01-12.49.59:923][  3]LogAIModule: Creating AISystem for world Tutorial
+[2025.04.01-12.49.59:924][  3]LogPlayLevel: PIE: World Init took: (0.002957s)
+[2025.04.01-12.49.59:924][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.029354s)
+[2025.04.01-12.49.59:961][  3]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2025.04.01-12.49.59:965][  3]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2025.04.01-12.49.59:966][  3]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.01-12.49.59:966][  3]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.01-12.49.59:966][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.01-12.49.59:966][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.01-12.49.59:966][  3]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.01-12.49.59:966][  3]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.01-12.49.59:966][  3]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.01-12.49.59:966][  3]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.01-12.49.59:966][  3]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.01-12.49.59:966][  3]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.01-12.49.59:966][  3]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.01-12.49.59:966][  3]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.01-12.49.59:969][  3]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.01-12.49.59:969][  3]LogAudioMixer: Display: 1: FrontRight
+[2025.04.01-12.49.59:990][  3]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.01-12.49.59:991][  3]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.01-12.49.59:991][  3]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.01-12.49.59:991][  3]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.01-12.49.59:991][  3]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.01-12.49.59:991][  3]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.04.01-12.49.59:991][  3]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.04.01-12.49.59:993][  3]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.04.01-12.49.59:993][  3]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.04.01-12.49.59:993][  3]LogInit: FAudioDevice initialized.
+[2025.04.01-12.49.59:993][  3]LogAudio: Display: Audio Device (ID: 61) registered with world 'Tutorial'.
+[2025.04.01-12.50.00:007][  3]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2025.04.01-12.50.00:011][  3]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2025.04.01-20.50.00
+[2025.04.01-12.50.00:013][  3]LogWorld: Bringing up level for play took: 0.004664
+[2025.04.01-12.50.00:013][  3]LogOnline: OSS: Creating online subsystem instance for: :Context_123
+[2025.04.01-12.50.00:017][  3]PIE: Server logged in
+[2025.04.01-12.50.00:017][  3]PIE: Play in editor total start time 0.124 seconds.
+[2025.04.01-12.50.01:940][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.01-12.50.01:940][113]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2025.04.01-12.50.01:941][113]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.04.01-12.50.01:941][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.01-12.50.01:959][113]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.01-12.50.02:005][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.01-12.50.02:037][113]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.01-12.50.02:038][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.04.01-12.50.02:039][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.04.01-12.50.02:043][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.01-12.50.02:051][113]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2025.04.01-12.50.02:124][114]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2025.04.01-12.50.04:200][220]LogEditorViewport: Clicking on Actor (LMB): BP_QuestGiver_C (BP_QuestGiver)
+[2025.04.01-12.50.07:858][427]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.01-12.50.07:866][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.01-12.50.07:866][427]PIE: New page: PIE session: Tutorial (2 Apr 2025, 4:50:07 am)
+[2025.04.01-12.50.07:866][427]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2025.04.01-12.50.07:890][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024873s)
+[2025.04.01-12.50.07:891][427]LogAIModule: Creating AISystem for world Tutorial
+[2025.04.01-12.50.07:893][427]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2025.04.01-12.50.07:893][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.026831s)
+[2025.04.01-12.50.07:930][427]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2025.04.01-12.50.07:933][427]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2025.04.01-12.50.07:933][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.01-12.50.07:933][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.01-12.50.07:933][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.01-12.50.07:933][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.01-12.50.07:933][427]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.01-12.50.07:933][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.01-12.50.07:933][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.01-12.50.07:933][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.01-12.50.07:934][427]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.01-12.50.07:934][427]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.01-12.50.07:934][427]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.01-12.50.07:934][427]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.01-12.50.07:937][427]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.01-12.50.07:937][427]LogAudioMixer: Display: 1: FrontRight
+[2025.04.01-12.50.07:956][427]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.01-12.50.07:957][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.01-12.50.07:957][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.01-12.50.07:957][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.01-12.50.07:957][427]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.01-12.50.07:957][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.04.01-12.50.07:957][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.04.01-12.50.07:959][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.04.01-12.50.07:959][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.04.01-12.50.07:959][427]LogInit: FAudioDevice initialized.
+[2025.04.01-12.50.07:960][427]LogAudio: Display: Audio Device (ID: 62) registered with world 'Tutorial'.
+[2025.04.01-12.50.07:975][427]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2025.04.01-12.50.07:979][427]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2025.04.01-20.50.07
+[2025.04.01-12.50.07:981][427]LogWorld: Bringing up level for play took: 0.003929
+[2025.04.01-12.50.07:981][427]LogOnline: OSS: Creating online subsystem instance for: :Context_124
+[2025.04.01-12.50.07:985][427]PIE: Server logged in
+[2025.04.01-12.50.07:985][427]PIE: Play in editor total start time 0.121 seconds.
+[2025.04.01-12.50.10:388][569]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.01-12.50.10:388][569]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.04.01-12.50.10:389][569]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.04.01-12.50.11:188][617]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Dialogue' of length 2 in '/Game/QuestSystem-Sample/BP_QuestGiver.BP_QuestGiver_C'!
+[2025.04.01-12.50.12:905][720]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.04.01-12.50.12:905][720]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.04.01-12.50.13:504][756]LogScript: Warning: Accessed None trying to read property Dialogue Widget
+	BP_QuestGiver_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial:PersistentLevel.BP_QuestGiver_2
+	Function /Game/QuestSystem-Sample/BP_QuestGiver.BP_QuestGiver_C:ExecuteUbergraph_BP_QuestGiver:03C1
+[2025.04.01-12.50.13:505][756]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Dialogue Widget". Blueprint:  BP_QuestGiver Function:  Execute Ubergraph BP Quest Giver Graph:  EventGraph Node:  Remove from Parent
+[2025.04.01-12.50.22:489][295]LogScript: Warning: Accessed None trying to read property Dialogue Widget
+	BP_QuestGiver_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial:PersistentLevel.BP_QuestGiver_2
+	Function /Game/QuestSystem-Sample/BP_QuestGiver.BP_QuestGiver_C:ExecuteUbergraph_BP_QuestGiver:03C1
+[2025.04.01-12.50.22:489][295]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Dialogue Widget". Blueprint:  BP_QuestGiver Function:  Execute Ubergraph BP Quest Giver Graph:  EventGraph Node:  Remove from Parent
+[2025.04.01-12.50.26:055][509]LogScript: Warning: Accessed None trying to read property Dialogue Widget
+	BP_QuestGiver_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial:PersistentLevel.BP_QuestGiver_2
+	Function /Game/QuestSystem-Sample/BP_QuestGiver.BP_QuestGiver_C:ExecuteUbergraph_BP_QuestGiver:03C1
+[2025.04.01-12.50.26:056][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Dialogue Widget". Blueprint:  BP_QuestGiver Function:  Execute Ubergraph BP Quest Giver Graph:  EventGraph Node:  Remove from Parent
+[2025.04.01-12.50.31:520][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.01-12.50.31:520][834]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2025.04.01-12.50.31:521][834]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.04.01-12.50.31:521][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.01-12.50.31:543][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.01-12.50.31:586][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.01-12.50.31:616][834]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.01-12.50.31:616][834]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.04.01-12.50.31:618][834]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.04.01-12.50.31:621][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.01-12.50.31:629][834]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2025.04.01-12.50.31:801][835]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2025.04.01-12.50.33:871][943]LogSlate: Window 'Message Log' being destroyed
+[2025.04.01-12.50.33:881][943]LogSlate: Window 'Message Log' being destroyed
+[2025.04.01-12.55.08:434][  1]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\markr\Downloads\Crouching Idle.fbx)
+[2025.04.01-12.55.08:469][  1]LogFbx: Loading FBX Scene from C:\Users\markr\Downloads\Crouching Idle.fbx
+[2025.04.01-12.55.08:734][  1]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.01-12.55.13:976][  1]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(0) Hips
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(1) Spine
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(2) Spine1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(3) Spine2
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(4) Neck
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(5) Head
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(6) HeadTop_End
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(7) LeftShoulder
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(8) LeftArm
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(9) LeftForeArm
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(10) LeftHand
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(23) LeftHandRing1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(24) LeftHandRing2
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(25) LeftHandRing3
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(26) LeftHandRing4
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(31) RightShoulder
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(32) RightArm
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(33) RightForeArm
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(34) RightHand
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(35) RightHandThumb1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(36) RightHandThumb2
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(37) RightHandThumb3
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(38) RightHandThumb4
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(39) RightHandIndex1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(40) RightHandIndex2
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(41) RightHandIndex3
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(42) RightHandIndex4
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(47) RightHandRing1
+[2025.04.01-12.55.14:010][  1]LogFbx: SortedLinks :(48) RightHandRing2
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(49) RightHandRing3
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(50) RightHandRing4
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(51) RightHandPinky1
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(52) RightHandPinky2
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(53) RightHandPinky3
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(54) RightHandPinky4
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(55) LeftUpLeg
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(56) LeftLeg
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(57) LeftFoot
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(58) LeftToeBase
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(59) LeftToe_End
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(60) RightUpLeg
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(61) RightLeg
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(62) RightFoot
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(63) RightToeBase
+[2025.04.01-12.55.14:011][  1]LogFbx: SortedLinks :(64) RightToe_End
+[2025.04.01-12.55.14:015][  1]LogFbx: Parsing AnimStack mixamo.com
+[2025.04.01-12.55.14:615][  1]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/Character/Katpipunero/Animations/Crouching_Idle.Crouching_Idle
+[2025.04.01-12.55.14:640][  1]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/Character/Katpipunero/Animations/Crouching_Idle.Crouching_Idle
+[2025.04.01-12.55.14:640][  1]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\markr\Downloads\Standing To Crouched.fbx)
+[2025.04.01-12.55.14:699][  1]LogFbx: Loading FBX Scene from C:\Users\markr\Downloads\Standing To Crouched.fbx
+[2025.04.01-12.55.14:947][  1]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(0) Hips
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(1) Spine
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(2) Spine1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(3) Spine2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(4) Neck
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(5) Head
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(6) HeadTop_End
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(7) LeftShoulder
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(8) LeftArm
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(9) LeftForeArm
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(10) LeftHand
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(23) LeftHandRing1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(24) LeftHandRing2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(25) LeftHandRing3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(26) LeftHandRing4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(31) RightShoulder
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(32) RightArm
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(33) RightForeArm
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(34) RightHand
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(35) RightHandThumb1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(36) RightHandThumb2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(37) RightHandThumb3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(38) RightHandThumb4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(39) RightHandIndex1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(40) RightHandIndex2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(41) RightHandIndex3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(42) RightHandIndex4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(47) RightHandRing1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(48) RightHandRing2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(49) RightHandRing3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(50) RightHandRing4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(51) RightHandPinky1
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(52) RightHandPinky2
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(53) RightHandPinky3
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(54) RightHandPinky4
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(55) LeftUpLeg
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(56) LeftLeg
+[2025.04.01-12.55.14:953][  1]LogFbx: SortedLinks :(57) LeftFoot
+[2025.04.01-12.55.14:954][  1]LogFbx: SortedLinks :(58) LeftToeBase
+[2025.04.01-12.55.14:954][  1]LogFbx: SortedLinks :(59) LeftToe_End
+[2025.04.01-12.55.14:954][  1]LogFbx: SortedLinks :(60) RightUpLeg
+[2025.04.01-12.55.14:954][  1]LogFbx: SortedLinks :(61) RightLeg
+[2025.04.01-12.55.14:954][  1]LogFbx: SortedLinks :(62) RightFoot
+[2025.04.01-12.55.14:954][  1]LogFbx: SortedLinks :(63) RightToeBase
+[2025.04.01-12.55.14:954][  1]LogFbx: SortedLinks :(64) RightToe_End
+[2025.04.01-12.55.14:958][  1]LogFbx: Parsing AnimStack mixamo.com
+[2025.04.01-12.55.15:217][  1]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\markr\Downloads\Crouched Walking.fbx)
+[2025.04.01-12.55.15:250][  1]LogFbx: Loading FBX Scene from C:\Users\markr\Downloads\Crouched Walking.fbx
+[2025.04.01-12.55.15:503][  1]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(0) Hips
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(1) Spine
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(2) Spine1
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(3) Spine2
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(4) Neck
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(5) Head
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(6) HeadTop_End
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(7) LeftShoulder
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(8) LeftArm
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(9) LeftForeArm
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(10) LeftHand
+[2025.04.01-12.55.15:509][  1]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(23) LeftHandRing1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(24) LeftHandRing2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(25) LeftHandRing3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(26) LeftHandRing4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(31) RightShoulder
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(32) RightArm
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(33) RightForeArm
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(34) RightHand
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(35) RightHandThumb1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(36) RightHandThumb2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(37) RightHandThumb3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(38) RightHandThumb4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(39) RightHandIndex1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(40) RightHandIndex2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(41) RightHandIndex3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(42) RightHandIndex4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(47) RightHandRing1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(48) RightHandRing2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(49) RightHandRing3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(50) RightHandRing4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(51) RightHandPinky1
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(52) RightHandPinky2
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(53) RightHandPinky3
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(54) RightHandPinky4
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(55) LeftUpLeg
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(56) LeftLeg
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(57) LeftFoot
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(58) LeftToeBase
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(59) LeftToe_End
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(60) RightUpLeg
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(61) RightLeg
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(62) RightFoot
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(63) RightToeBase
+[2025.04.01-12.55.15:510][  1]LogFbx: SortedLinks :(64) RightToe_End
+[2025.04.01-12.55.15:514][  1]LogFbx: Parsing AnimStack mixamo.com
+[2025.04.01-12.55.15:857][  1]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\markr\Downloads\Crouched To Standing.fbx)
+[2025.04.01-12.55.15:913][  1]LogFbx: Loading FBX Scene from C:\Users\markr\Downloads\Crouched To Standing.fbx
+[2025.04.01-12.55.16:163][  1]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(0) Hips
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(1) Spine
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(2) Spine1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(3) Spine2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(4) Neck
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(5) Head
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(6) HeadTop_End
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(7) LeftShoulder
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(8) LeftArm
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(9) LeftForeArm
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(10) LeftHand
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(23) LeftHandRing1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(24) LeftHandRing2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(25) LeftHandRing3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(26) LeftHandRing4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(31) RightShoulder
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(32) RightArm
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(33) RightForeArm
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(34) RightHand
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(35) RightHandThumb1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(36) RightHandThumb2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(37) RightHandThumb3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(38) RightHandThumb4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(39) RightHandIndex1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(40) RightHandIndex2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(41) RightHandIndex3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(42) RightHandIndex4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(47) RightHandRing1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(48) RightHandRing2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(49) RightHandRing3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(50) RightHandRing4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(51) RightHandPinky1
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(52) RightHandPinky2
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(53) RightHandPinky3
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(54) RightHandPinky4
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(55) LeftUpLeg
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(56) LeftLeg
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(57) LeftFoot
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(58) LeftToeBase
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(59) LeftToe_End
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(60) RightUpLeg
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(61) RightLeg
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(62) RightFoot
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(63) RightToeBase
+[2025.04.01-12.55.16:170][  1]LogFbx: SortedLinks :(64) RightToe_End
+[2025.04.01-12.55.16:175][  1]LogFbx: Parsing AnimStack mixamo.com
+[2025.04.01-12.55.16:531][  2]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/Character/Katpipunero/Animations/Crouched_To_Standing.Crouched_To_Standing
+[2025.04.01-12.55.16:531][  2]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/Character/Katpipunero/Animations/Crouched_Walking.Crouched_Walking
+[2025.04.01-12.55.16:906][  4]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/Character/Katpipunero/Animations/Standing_To_Crouched.Standing_To_Crouched
+[2025.04.01-12.56.16:741][268]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2025.04.01-12.56.16:820][268]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2025.04.01-12.56.42:097][355]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2025.04.01-12.56.42:185][355]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Tutorial_Auto6D26D174F4E5C62E4F2FFDD981161E223.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_Auto6.umap'
+[2025.04.01-12.56.42:187][355]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/Tutorial' took 0.141
+[2025.04.01-12.56.42:187][355]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.141
+[2025.04.01-12.56.42:189][355]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([4] browsable assets)...
+[2025.04.01-12.56.42:205][355]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2025.04.01-12.56.42:219][355]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2025.04.01-12.56.42:219][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2025.04.01-12.56.42:278][355]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/ThirdPersonCharacter_Auto60E95F50A4EAD07A267F9FAA4A35DDEA3.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto6.uasset'
+[2025.04.01-12.56.42:281][355]LogFileHelpers: Auto-saving content packages took 0.093
+[2025.04.01-12.57.35:414][842]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.04.01-12.57.39:840][  0]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.04.01-12.57.39:853][  0]LogContentBrowser: Deferred new asset file creation: NewBlendSpace1D
+[2025.04.01-12.57.39:874][  0]LogContentBrowser: Creating deferred item: NewBlendSpace1D
+[2025.04.01-12.57.47:232][402]LogContentBrowser: End creating deferred item NewBlendSpace1D
+[2025.04.01-12.58.03:509][292]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> Char_Crouch_BS
+[2025.04.01-12.58.03:614][292]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_Crouch_BSDE2EF8D44BB5E812EDA942B8B374F0B4.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_Crouch_BS.uasset'
+[2025.04.01-12.58.03:911][292]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2025.04.01-12.58.03:959][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.04.01-12.58.03:990][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.04.01-12.58.04:093][292]AssetCheck: New page: Asset Save: Char_Crouch_BS
+[2025.04.01-12.58.04:093][292]LogContentValidation: Display: Validating BlendSpace1D /Game/Assets/Character/Katpipunero/Animations/Char_Crouch_BS.Char_Crouch_BS
+[2025.04.01-12.58.05:114][337]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Assets/Character/Katpipunero/Animations/Char_Crouch_BS.Char_Crouch_BS
+[2025.04.01-12.58.05:120][337]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_63:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.01-12.58.05:539][337]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2025.04.01-12.58.07:224][416]LogSlate: Window 'Char_Crouch_BS' being destroyed
+[2025.04.01-12.58.24:729][ 87]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_Crouch_BSBD1FD2EF4B062F124D7BB6B4A2684299.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_Crouch_BS.uasset'
+[2025.04.01-12.58.24:750][ 87]AssetCheck: New page: Asset Save: Char_Crouch_BS
+[2025.04.01-12.58.24:750][ 87]LogContentValidation: Display: Validating BlendSpace1D /Game/Assets/Character/Katpipunero/Animations/Char_Crouch_BS.Char_Crouch_BS
+[2025.04.01-13.00.23:802][994]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2025.04.01-13.01.10:130][ 90]LogSlate: Window 'Project Settings' being destroyed
+[2025.04.01-13.01.51:292][638]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2025.04.01-13.01.51:501][638]LogUObjectHash: Compacting FUObjectHashTables data took   6.47ms
+[2025.04.01-13.01.51:855][648]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/ThirdPersonCharacter51A1C6384632F9D1FDA409961E1D882F.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2025.04.01-13.01.51:883][648]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2025.04.01-13.01.51:883][648]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2025.04.01-13.02.05:291][988]LogEditorTransaction: Undo Create Pin Link
+[2025.04.01-13.02.05:517][988]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.01-13.02.05:518][988]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_63:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.01-13.02.08:312][131]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2025.04.01-13.02.08:451][131]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2025.04.01-13.02.08:879][143]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/ThirdPersonCharacter39670430422984F3FF4DDEB631D0D06B.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2025.04.01-13.02.08:904][143]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2025.04.01-13.02.08:904][143]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2025.04.01-13.02.57:571][ 72]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2025.04.01-13.02.57:657][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2025.04.01-13.03.11:660][654]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/ThirdPersonCharacter72AEF49E458D554F23617C88354075F4.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2025.04.01-13.03.11:685][654]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2025.04.01-13.03.11:685][654]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2025.04.01-13.03.13:224][734]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_Crouch_BS47AA556446DEB793EC8A9EA7ED0C62B7.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_Crouch_BS.uasset'
+[2025.04.01-13.03.13:245][734]AssetCheck: New page: Asset Save: Char_Crouch_BS
+[2025.04.01-13.03.13:245][734]LogContentValidation: Display: Validating BlendSpace1D /Game/Assets/Character/Katpipunero/Animations/Char_Crouch_BS.Char_Crouch_BS
+[2025.04.01-13.03.14:958][827]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2025.04.01-13.03.15:031][827]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/TutorialA3B6F6A64320A6C6164FDE8F69A8576D.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2025.04.01-13.03.15:076][827]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Tutorial_BuiltData7818B5BB4F7E6B7D8C1D09A0FE9A42A6.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset'
+[2025.04.01-13.03.15:106][827]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.01-13.03.15:107][827]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Tutorial_BuiltData.Tutorial_BuiltData
+[2025.04.01-13.03.15:107][827]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Tutorial.Tutorial
+[2025.04.01-13.03.25:985][312]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2025.04.01-13.03.26:070][312]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2025.04.01-13.03.26:615][333]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/ThirdPersonCharacter8A81D70E4B7FCEAC874AB5888008A5BE.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2025.04.01-13.03.26:638][333]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2025.04.01-13.03.26:638][333]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2025.04.01-13.04.23:120][596]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.04.23:178][596]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2025.04.01-13.04.23:746][620]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_AnimBP231F7FD7458D1ACBFAF3E7A05DF1E49A.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_AnimBP.uasset'
+[2025.04.01-13.04.23:771][620]AssetCheck: New page: Asset Save: Char_AnimBP
+[2025.04.01-13.04.23:771][620]LogContentValidation: Display: Validating AnimBlueprint /Game/Assets/Character/Katpipunero/Animations/Char_AnimBP.Char_AnimBP
+[2025.04.01-13.05.33:256][131]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.05.33:315][131]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2025.04.01-13.06.16:128][748]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.06.16:133][748]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Idle to Stand to crouch  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.06.16:185][748]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2025.04.01-13.06.16:799][776]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_AnimBP31DCE5354A5268066E3602B5C88ABAE0.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_AnimBP.uasset'
+[2025.04.01-13.06.16:819][776]AssetCheck: New page: Asset Save: Char_AnimBP
+[2025.04.01-13.06.16:819][776]LogContentValidation: Display: Validating AnimBlueprint /Game/Assets/Character/Katpipunero/Animations/Char_AnimBP.Char_AnimBP
+[2025.04.01-13.06.18:408][866]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Character/Katpipunero/Animations/Standing_To_Crouched.Standing_To_Crouched
+[2025.04.01-13.06.23:400][156]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2025.04.01-13.06.23:401][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.01-13.06.23:429][156]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2025.04.01-13.06.23:429][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.01-13.06.23:510][156]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2025.04.01-13.06.23:510][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.01-13.07.15:152][758]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.07.15:159][758]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Idle to Stand to crouch  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.07.15:159][758]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Stand to crouch to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.07.15:227][758]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2025.04.01-13.07.15:834][786]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_AnimBP80F914C042F3CDE0AB7781BE09E8FB79.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_AnimBP.uasset'
+[2025.04.01-13.07.15:856][786]AssetCheck: New page: Asset Save: Char_AnimBP
+[2025.04.01-13.07.15:856][786]LogContentValidation: Display: Validating AnimBlueprint /Game/Assets/Character/Katpipunero/Animations/Char_AnimBP.Char_AnimBP
+[2025.04.01-13.07.46:474][878]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.07.46:480][878]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Idle to Stand to crouch  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.07.46:481][878]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Stand to crouch to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.07.46:482][878]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to Crouch to run  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.07.46:535][878]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2025.04.01-13.08.21:180][588]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.08.21:186][588]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Idle to Stand to crouch  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.08.21:186][588]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Stand to crouch to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.08.21:187][588]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to Crouch to run  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.08.21:187][588]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to run to Idle  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.08.21:241][588]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2025.04.01-13.08.44:459][322]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.08.44:465][322]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Stand to crouch to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.08.44:465][322]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to Crouch to run  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.08.44:465][322]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to run to Idle  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.08.44:517][322]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2025.04.01-13.08.45:060][347]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_AnimBP5213D7A64B6DCAFA10ACA68608BC41C2.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_AnimBP.uasset'
+[2025.04.01-13.08.45:082][347]AssetCheck: New page: Asset Save: Char_AnimBP
+[2025.04.01-13.08.45:082][347]LogContentValidation: Display: Validating AnimBlueprint /Game/Assets/Character/Katpipunero/Animations/Char_AnimBP.Char_AnimBP
+[2025.04.01-13.09.32:354][610]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.09.32:361][610]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to Crouch to run  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.09.32:361][610]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to run to Idle  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.09.32:417][610]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2025.04.01-13.09.34:423][678]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_AnimBPDD0F8EC34656D88299EF9FB490783309.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_AnimBP.uasset'
+[2025.04.01-13.09.34:445][678]AssetCheck: New page: Asset Save: Char_AnimBP
+[2025.04.01-13.09.34:445][678]LogContentValidation: Display: Validating AnimBlueprint /Game/Assets/Character/Katpipunero/Animations/Char_AnimBP.Char_AnimBP
+[2025.04.01-13.09.35:824][757]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.09.35:830][757]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to Crouch to run  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.09.35:831][757]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to run to Idle  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.09.35:885][757]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2025.04.01-13.09.57:215][862]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.09.57:222][862]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to Crouch to run  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.09.57:222][862]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to run to Idle  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.09.57:274][862]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2025.04.01-13.09.58:152][906]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_AnimBP981EA3504CFF1A302AC30F9C237D7D47.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_AnimBP.uasset'
+[2025.04.01-13.09.58:173][906]AssetCheck: New page: Asset Save: Char_AnimBP
+[2025.04.01-13.09.58:173][906]LogContentValidation: Display: Validating AnimBlueprint /Game/Assets/Character/Katpipunero/Animations/Char_AnimBP.Char_AnimBP
+[2025.04.01-13.10.30:240][907]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.10.30:248][907]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to run to Idle  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.10.30:305][907]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2025.04.01-13.10.30:860][932]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_AnimBP31C26A9140DA8775A06159990BE49E08.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_AnimBP.uasset'
+[2025.04.01-13.10.30:881][932]AssetCheck: New page: Asset Save: Char_AnimBP
+[2025.04.01-13.10.30:881][932]LogContentValidation: Display: Validating AnimBlueprint /Game/Assets/Character/Katpipunero/Animations/Char_AnimBP.Char_AnimBP
+[2025.04.01-13.12.15:859][871]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.12.15:923][871]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2025.04.01-13.12.16:658][902]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_AnimBPE9D695714C6636B45BED86B2CCB0BB14.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_AnimBP.uasset'
+[2025.04.01-13.12.16:682][902]AssetCheck: New page: Asset Save: Char_AnimBP
+[2025.04.01-13.12.16:682][902]LogContentValidation: Display: Validating AnimBlueprint /Game/Assets/Character/Katpipunero/Animations/Char_AnimBP.Char_AnimBP
+[2025.04.01-13.12.33:538][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2025.04.01-13.12.33:610][ 57]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/TutorialDBC316B24E6320E86603DA9B390D604B.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2025.04.01-13.12.33:653][ 57]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Tutorial_BuiltData03B5D1E044EBB8F5B954C88A710C61F4.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset'
+[2025.04.01-13.12.33:679][ 57]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.01-13.12.33:679][ 57]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Tutorial_BuiltData.Tutorial_BuiltData
+[2025.04.01-13.12.33:679][ 57]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Tutorial.Tutorial
+[2025.04.01-13.12.34:338][ 95]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.01-13.12.34:346][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.01-13.12.34:346][ 95]PIE: New page: PIE session: Tutorial (2 Apr 2025, 5:12:34 am)
+[2025.04.01-13.12.34:348][ 95]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2025.04.01-13.12.34:374][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026877s)
+[2025.04.01-13.12.34:376][ 95]LogAIModule: Creating AISystem for world Tutorial
+[2025.04.01-13.12.34:377][ 95]LogPlayLevel: PIE: World Init took: (0.001925s)
+[2025.04.01-13.12.34:377][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.029104s)
+[2025.04.01-13.12.34:410][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2025.04.01-13.12.34:411][ 95]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2025.04.01-13.12.34:411][ 95]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.01-13.12.34:411][ 95]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.01-13.12.34:411][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.01-13.12.34:411][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.01-13.12.34:411][ 95]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.01-13.12.34:411][ 95]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.01-13.12.34:411][ 95]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.01-13.12.34:411][ 95]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.01-13.12.34:412][ 95]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.01-13.12.34:412][ 95]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.01-13.12.34:412][ 95]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.01-13.12.34:412][ 95]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.01-13.12.34:415][ 95]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.01-13.12.34:415][ 95]LogAudioMixer: Display: 1: FrontRight
+[2025.04.01-13.12.34:440][ 95]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.01-13.12.34:441][ 95]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.01-13.12.34:441][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.01-13.12.34:441][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.01-13.12.34:441][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.01-13.12.34:441][ 95]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.04.01-13.12.34:441][ 95]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.04.01-13.12.34:443][ 95]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.04.01-13.12.34:443][ 95]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.04.01-13.12.34:443][ 95]LogInit: FAudioDevice initialized.
+[2025.04.01-13.12.34:443][ 95]LogAudio: Display: Audio Device (ID: 63) registered with world 'Tutorial'.
+[2025.04.01-13.12.34:459][ 95]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2025.04.01-13.12.34:462][ 95]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2025.04.01-21.12.34
+[2025.04.01-13.12.34:464][ 95]LogWorld: Bringing up level for play took: 0.004075
+[2025.04.01-13.12.34:464][ 95]LogOnline: OSS: Creating online subsystem instance for: :Context_128
+[2025.04.01-13.12.34:468][ 95]PIE: Server logged in
+[2025.04.01-13.12.34:469][ 95]PIE: Play in editor total start time 0.123 seconds.
+[2025.04.01-13.12.53:417][227]LogUIActionRouter: Cleaned out [0] inactive UI action bindings
+[2025.04.01-13.12.57:832][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.01-13.12.57:832][489]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2025.04.01-13.12.57:832][489]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.04.01-13.12.57:833][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.01-13.12.57:864][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.01-13.12.57:906][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.01-13.12.57:935][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.01-13.12.57:935][489]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.04.01-13.12.57:937][489]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.04.01-13.12.57:947][489]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2025.04.01-13.12.58:005][490]LogPlayLevel: Display: Destroying online subsystem :Context_128
+[2025.04.01-13.13.41:744][ 60]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.13.41:752][ 60]LogBlueprint: Warning: [AssetLog] C:\Users\markr\OneDrive\Desktop\Unreal Project\KalayaAndroid\KalayaAndroid\Content\Assets\Character\Katpipunero\Animations\Char_AnimBP.uasset: [Compiler] Crouch to run to Walk/Run  will never be taken, please connect something to  Can Enter Transition
+[2025.04.01-13.13.41:808][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2025.04.01-13.13.59:346][ 72]BlueprintLog: New page: Compile Char_AnimBP
+[2025.04.01-13.13.59:412][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2025.04.01-13.14.00:007][ 99]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Char_AnimBP7719B42649EF419A76AEA78BDA4A1AF4.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Content/Assets/Character/Katpipunero/Animations/Char_AnimBP.uasset'
+[2025.04.01-13.14.00:035][ 99]AssetCheck: New page: Asset Save: Char_AnimBP
+[2025.04.01-13.14.00:035][ 99]LogContentValidation: Display: Validating AnimBlueprint /Game/Assets/Character/Katpipunero/Animations/Char_AnimBP.Char_AnimBP
+[2025.04.01-13.14.10:404][701]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.01-13.14.10:413][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.01-13.14.10:413][701]PIE: New page: PIE session: Tutorial (2 Apr 2025, 5:14:10 am)
+[2025.04.01-13.14.10:413][701]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2025.04.01-13.14.10:437][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024741s)
+[2025.04.01-13.14.10:438][701]LogAIModule: Creating AISystem for world Tutorial
+[2025.04.01-13.14.10:439][701]LogPlayLevel: PIE: World Init took: (0.001567s)
+[2025.04.01-13.14.10:439][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.026575s)
+[2025.04.01-13.14.10:476][701]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2025.04.01-13.14.10:478][701]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2025.04.01-13.14.10:480][701]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.01-13.14.10:480][701]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.01-13.14.10:480][701]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.01-13.14.10:480][701]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.01-13.14.10:480][701]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.01-13.14.10:480][701]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.01-13.14.10:480][701]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.01-13.14.10:480][701]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.01-13.14.10:480][701]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.01-13.14.10:480][701]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.01-13.14.10:480][701]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.01-13.14.10:480][701]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.01-13.14.10:483][701]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.01-13.14.10:483][701]LogAudioMixer: Display: 1: FrontRight
+[2025.04.01-13.14.10:503][701]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.01-13.14.10:503][701]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.01-13.14.10:503][701]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.01-13.14.10:503][701]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.01-13.14.10:504][701]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.01-13.14.10:504][701]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.04.01-13.14.10:504][701]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.04.01-13.14.10:506][701]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.04.01-13.14.10:506][701]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.04.01-13.14.10:506][701]LogInit: FAudioDevice initialized.
+[2025.04.01-13.14.10:506][701]LogAudio: Display: Audio Device (ID: 64) registered with world 'Tutorial'.
+[2025.04.01-13.14.10:521][701]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2025.04.01-13.14.10:525][701]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2025.04.01-21.14.10
+[2025.04.01-13.14.10:526][701]LogWorld: Bringing up level for play took: 0.003868
+[2025.04.01-13.14.10:526][701]LogOnline: OSS: Creating online subsystem instance for: :Context_129
+[2025.04.01-13.14.10:531][701]PIE: Server logged in
+[2025.04.01-13.14.10:532][701]PIE: Play in editor total start time 0.12 seconds.
+[2025.04.01-13.14.36:036][229]LogScript: Warning: Accessed None trying to read property Dialogue Widget
+	BP_QuestGiver_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial:PersistentLevel.BP_QuestGiver_2
+	Function /Game/QuestSystem-Sample/BP_QuestGiver.BP_QuestGiver_C:ExecuteUbergraph_BP_QuestGiver:03C1
+[2025.04.01-13.14.36:036][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Dialogue Widget". Blueprint:  BP_QuestGiver Function:  Execute Ubergraph BP Quest Giver Graph:  EventGraph Node:  Remove from Parent
+[2025.04.01-13.14.36:037][229]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.04.01-13.14.36:053][230]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2025.04.01-13.14.36:053][230]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:00DE
+[2025.04.01-13.14.36:053][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  ThirdPersonCharacter Function:  Execute Ubergraph Third Person Character Graph:  EventGraph Node:  Branch
+[2025.04.01-13.14.36:053][230]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors_1' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2025.04.01-13.14.36:053][230]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_1
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:02BE
+[2025.04.01-13.14.36:053][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  ThirdPersonCharacter Function:  Execute Ubergraph Third Person Character Graph:  EventGraph Node:  Branch
+[2025.04.01-13.14.37:470][315]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Dialogue Widget". Blueprint:  BP_QuestGiver Function:  Execute Ubergraph BP Quest Giver Graph:  EventGraph Node:  Remove from Parent
+[2025.04.01-13.15.07:159][ 94]LogUIActionRouter: Cleaned out [0] inactive UI action bindings
+[2025.04.01-13.15.07:856][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Dialogue Widget". Blueprint:  BP_QuestGiver Function:  Execute Ubergraph BP Quest Giver Graph:  EventGraph Node:  Remove from Parent
