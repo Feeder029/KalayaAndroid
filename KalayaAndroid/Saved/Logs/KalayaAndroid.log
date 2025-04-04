@@ -4758,3 +4758,28 @@ SkySphereBlueprint
 [2025.04.04-16.55.19:376][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.04.04-16.55.19:381][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
 [2025.04.04-16.55.19:439][905]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2025.04.04-17.03.01:477][699]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{546b8ed9-a27f-47fa-9a8e-9df3b31db43c}.
+[2025.04.04-17.03.01:477][699]LogAudioMixer: Resetting audio stream to device id 
+[2025.04.04-17.03.01:634][699]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.04-17.03.01:634][699]LogAudioMixer: Display: 1: FrontRight
+[2025.04.04-17.04.33:473][974]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2025.04.04-17.04.33:520][974]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Tutorial_Auto317BD4D544099C4488F7C85A872E992ED.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_Auto3.umap'
+[2025.04.04-17.04.33:523][974]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/Tutorial' took 0.075
+[2025.04.04-17.04.33:523][974]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.075
+[2025.04.04-17.04.33:523][974]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([2] browsable assets)...
+[2025.04.04-17.04.33:553][974]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C]
+[2025.04.04-17.04.33:566][974]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2025.04.04-17.04.33:566][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2025.04.04-17.04.33:618][974]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/ThirdPersonCharacter_Auto37B52AD0746392166318BFC91256EFC38.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2025.04.04-17.04.33:620][974]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Character/Katpipunero/New/KatipuneroApostSmooth_PhysicsAsset] ([1] browsable assets)...
+[2025.04.04-17.04.33:649][974]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Assets/Character/Katpipunero/New/KatipuneroApostSmooth_PhysicsAsset.KatipuneroApostSmooth_PhysicsAsset]
+[2025.04.04-17.04.33:649][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Character/Katpipunero/New/KatipuneroApostSmooth_PhysicsAsset]
+[2025.04.04-17.04.33:661][974]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/KatipuneroApostSmooth_PhysicsAss177EF5E648496F70848C4E8723EACE00.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Autosaves/Game/Assets/Character/Katpipunero/New/KatipuneroApostSmooth_PhysicsAsset_Auto3.uasset'
+[2025.04.04-17.04.33:663][974]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Character/Katpipunero/New/KatipuneroApostSmooth_Skeleton] ([1] browsable assets)...
+[2025.04.04-17.04.33:663][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Character/Katpipunero/New/KatipuneroApostSmooth_Skeleton]
+[2025.04.04-17.04.33:664][974]LogSavePackage: Moving '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/KatipuneroApostSmooth_Skeleton_A2F84CEBB44E1BC0911678F9761E4BFA2.tmp' to '../../../../../../Users/markr/OneDrive/Desktop/Unreal Project/KalayaAndroid/KalayaAndroid/Saved/Autosaves/Game/Assets/Character/Katpipunero/New/KatipuneroApostSmooth_Skeleton_Auto3.uasset'
+[2025.04.04-17.04.33:665][974]LogFileHelpers: Auto-saving content packages took 0.142
+[2025.04.04-17.14.05:161][682]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{779a6c1b-ef45-4a07-be50-5c9534a5d543}.
+[2025.04.04-17.14.05:161][682]LogAudioMixer: Resetting audio stream to device id 
+[2025.04.04-17.14.05:194][682]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.04-17.14.05:194][682]LogAudioMixer: Display: 1: FrontRight
